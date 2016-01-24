@@ -19,7 +19,7 @@ import javax.servlet.http.HttpSession;
  *
  * @author gabip
  */
-@WebServlet(name = "LoginServ", urlPatterns = {"introduccion.jsp"})
+@WebServlet(name = "LoginServ", urlPatterns = {"/LoginServ"})
 public class LoginServ extends HttpServlet {
 
     /**
@@ -96,7 +96,7 @@ public class LoginServ extends HttpServlet {
         } else {
             request.getSession().setAttribute("user", n);
             request.getSession().setAttribute("userid", userID);
-            RequestDispatcher rd = request.getRequestDispatcher("/WEB-INF/introduccion.jsp");
+            RequestDispatcher rd = request.getRequestDispatcher("introduccion.jsp");
             rd.forward(request, response);
         }
 
