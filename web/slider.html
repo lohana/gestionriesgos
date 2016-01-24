@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html lang="en">
+    <head>
+        <title id='Description'>The jqxDropDownList represents a widget that contains a list
+            of selectable items displayed in a drop-down.</title>
+        <script src="https://code.jquery.com/jquery-2.1.1.js"></script>
+        <script type="text/javascript" src="js/jqxcore.js"></script>
+        <script type="text/javascript" src="js/jqxbuttons.js"></script>
+        <script type="text/javascript" src="js/jqxscrollbar.js"></script>
+        <script type="text/javascript" src="js/jqxlistbox.js"></script>
+        <script type="text/javascript" src="js/jqxdropdownlist.js"></script>
+        <link rel="stylesheet" href="css/jqx.base.css" type="text/css" />
+        <link rel="stylesheet" href="https://code.jquery.com/ui/1.10.4/themes/flick/jquery-ui.css">
+
+    </head>
+    <body>
+        <div id='content'>
+            <script type="text/javascript">
+                $(document).ready(function () {
+                    var source = [
+                        "5%", "10%", "15%", "20%", "25%", "30%", "35%", "40%"
+                    ];
+                    // Create a jqxDropDownList
+                    $("#jqxWidget").jqxDropDownList(
+                            {source: source,
+                                selectedIndex: 1,
+                                width: '200',
+                                height: '25'});
+                });
+            </script>
+            <div id='jqxWidget'>
+            </div>
+        </div>
+    </body>
+</html>

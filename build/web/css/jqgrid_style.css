@@ -1,0 +1,44 @@
+
+/* 
+    Created on : 16-ene-2016, 15:40:57
+    Author     : gabip
+*/
+
+
+.ui-jqgrid tr.jqgrow td 
+{           
+    word-wrap: break-word; /* IE 5.5+ and CSS3 */
+    white-space: pre-wrap; /* CSS3 */
+    white-space: -o-pre-wrap; 
+    white-space: normal !important;
+    height: auto;
+    vertical-align: central;
+    padding-top: 2px;
+    padding-bottom: 1px;
+    color: #5A5A5A;
+    text-align: justify;
+    font-size: 1em;
+    font-family: 'OpenSans-Regular';
+
+}
+
+.ui-widget-content .ui-state-hover
+{
+    background: lightgray; 
+    border: 1px solid #5A5A5A;
+}
+
+.ui-jqgrid .ui-jqgrid-htable th{
+    color: #5A5A5A; 
+    text-align: justify;
+    font-size: 1.1em;
+    font-family: 'Montserrat-Bold';
+
+}
+
+.ui-jqgrid .ui-jqgrid-caption{
+    color: #5A5A5A; 
+    text-align: justify;
+    font-size: 1.1em;
+    font-family: 'Montserrat-Bold';  
+}
