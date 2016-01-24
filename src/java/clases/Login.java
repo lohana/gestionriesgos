@@ -27,7 +27,7 @@ public class Login {
         String dbName = "gestionderiesgo";
         String driver = "com.mysql.jdbc.Driver";
         String userName = "root";
-        String password = "mariagabriela";
+        String password = "pegazo13";
         String id = "0";
 
         try {
