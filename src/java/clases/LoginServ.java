@@ -19,7 +19,7 @@ import javax.servlet.http.HttpSession;
  *
  * @author gabip
  */
-@WebServlet(name = "LoginServ", urlPatterns = {"/LoginServ"})
+@WebServlet(name = "LoginServ", urlPatterns = {"introduccion.jsp"})
 public class LoginServ extends HttpServlet {
 
     /**
