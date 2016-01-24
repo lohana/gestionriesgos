@@ -21,9 +21,9 @@ import javax.servlet.http.HttpSession;
  */
 @WebServlet(name = "LoginServ", urlPatterns = {"/LoginServ"})
 public class LoginServ extends HttpServlet {
-
+//el index no se cae xq invoca de esta forma
     /**
-     * Processes requests for both HTTP <code>GET</code> and <code>POST</code>
+     * Processes requests for both HTTP <code>  GET</code> and <code>POST</code>
      * methods.
      *
      * @param request servlet request
