@@ -64,7 +64,7 @@ public class inicioServ extends HttpServlet {
         IniciarPartida nuevaPartida = new IniciarPartida();
         String partidaId = nuevaPartida.nuevaPartida(user);
         request.getSession().setAttribute("partidaId", partidaId);
-        RequestDispatcher rd = request.getRequestDispatcher("nivel1.jsp");
+        RequestDispatcher rd = request.getRequestDispatcher("/nivel1.jsp");
         rd.forward(request, response);
     }
 
